@@ -1,0 +1,42 @@
+<!--
+@Author: Phillis Kiragu <PKiragu>
+@Date:   2016-08-08T22:51:06+03:00
+@Email:  pkiragu@cytonn.com
+@Last modified by:   PKiragu
+@Last modified time: 2016-08-08T23:05:23+03:00
+-->
+<!DOCTYPE html>
+<html>
+<head><title> Form </title></head>
+
+<body>
+<form action="file.php" method="post" id="form_example">
+<fieldset>
+<legend> Login Info</legend>
+Username: <br> <input type="text" name="username"> <br>
+Password: <br> <input type="password" name="password"> <br> <br>
+</fieldset> <br>
+<!-- fieldset -->
+<fieldset>
+<legend>Personal Information</legend>
+<h4>Gender</h4>
+<input type="radio" name="gender" value="female" checked>Female <input type="radio" name="gender" value="male">Male
+
+<h4>Hobbies</h4>
+<input type="checkbox" name="watching" value="watching" > Watching Movies at the Theatre <br>
+<input type="checkbox" name="playing" value="playing" > Playing Video Games <br>
+<input type="checkbox" name="reading" value="reading" > Reading Novels and Blogs <br>
+<input type="checkbox" name="running" value="running" > Running to relieve stress and Exercise <br>
+<input type="checkbox" name="visit" value="visit" > Visiting my Friends and Relatives <br>
+<input type="checkbox" name="shop" value="shop" > Shopping at the Mall <br>
+
+<h4>Describe yourself</h4>
+<textarea rows="4" cols="150" placeholder="tell us about yourself..." form=form_example></textarea>
+</fieldset>
+<br>
+
+<input type="submit" value="send it">
+</form>
+</body>
+
+</html>
